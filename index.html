@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home - zoete cola</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="assets/icons/iconSR.png" rel="icon" type="image/png" />
+  <link rel="manifest" href="manifest.json" type="text/json" />
+  <meta content="Zoete Cola" property="og:title">
+  <meta content="Your beloved cola, now sweet. What is Zoete Cola? Zoete Cola is a company that brews one of the most famous drinks but sweet. Zoete Cola exists with and without that lovely fizz." property="og:description">
+  <meta content="https://zoetecola.tk/" property="og:url">
+  <meta content="https://zoetecola.tk/assets/icons/iconSF.png" property="og:image">
+  <meta property="og:image:secure_url" content="https://zoetecola.tk/assets/icons/iconSF.png"> 
+  <meta content="#713333" data-react-helmet="true" name="theme-color" />
+</head>
+
+<body>
+  <div id="menu">
+    <img id="menu-img-o" src="assets/functions/open.png" onclick="menuOpen(true);">
+    <img id="menu-img-c" src="assets/functions/close.png" onclick="menuOpen(false);">
+    <div id="menu-open">
+      <a id="menu-up" class="menu-links" href="">HOME</a>
+      <a class="menu-links" href="products">PRODUCTS</a>
+      <a class="menu-links" href="creators">CREATORS</a>
+      <a class="menu-links" href="contact">CONTACT</a>
+    </div>
+  </div>
+  <header id="header">
+    <img src="assets/icons/icon.png">
+    <nav>
+      <a class="nav-links" href="">HOME</a>
+      <a class="nav-links" href="products">PRODUCTS</a>
+      <a class="nav-links" href="creators">CREATORS</a>
+      <a class="nav-links" href="contact">CONTACT</a>
+    </nav>
+  </header>
+  <main id="main">
+    <svg id="svg-upper" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+        <path fill="#7a4040" transform="translate(0, -22)"
+          d="M0,128L60,138.7C120,149,240,171,360,170.7C480,171,600,149,720,144C840,139,960,149,1080,165.3C1200,181,1320,203,1380,213.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
+    <div id="main-content">
+      <div id="main-desc">
+        <div id="main-desc-text">
+          <h1 id="title">Your beloved cola,<br>now sweet</h1>
+          <p id="desc">What is Zoete Cola? Zoete Cola is a company that brews<br> one of the most famous drinks but sweet.<br>Zoete Cola exists with and without that lovely fizz.</p>
+        </div>
+        <img id="bottle" src="assets/drinks/bottle-standing-nofizz.png">
+      </div>
+    </div>
+      <svg id="svg-under" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+        <path fill="#7a4040"
+          d="M0,192L30,181.3C60,171,120,149,180,133.3C240,117,300,107,360,90.7C420,75,480,53,540,48C600,43,660,53,720,69.3C780,85,840,107,900,101.3C960,96,1020,64,1080,80C1140,96,1200,160,1260,170.7C1320,181,1380,139,1410,117.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+        </path>
+      </svg>
+    <div id="second-main-section">
+      <article id="bottle-fizz" class="examples">
+        <div class="item-divs">
+          <img src="assets/drinks/bottle-standing-nofizz.png" width="250px">
+          <div id="article-text">
+            <h2>Bottle with no fizz - 300ml - sugared and zero</h2>
+            <div class="example-buttons">
+              <a class="button">View in store</a>
+              <a class="button-next" onclick="run();">></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="bottle-nofizz" class="examples">
+        <div class="item-divs">
+          <img src="assets/drinks/bottle-standing-fizz.png" width="250px">
+          <div id="article-text"> 
+            <h2>Bottle with fizz - 300ml - sugared and zero</h2>
+            <div class="example-buttons">
+              <a class="button">View in store</a>
+              <a class="button-next" onclick="run();">></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="can-fizz" class="examples">
+        <div class="item-divs">
+          <img src="assets/drinks/can-standing-nofizz.png" width="250px">
+          <div id="article-text">
+            <h2>Can with no fizz - 330ml - sugared and zero</h2>
+            <div class="example-buttons">
+              <a class="button">View in store</a>
+              <a class="button-next" onclick="run();">></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="can-nofizz" class="examples">
+        <div class="item-divs">
+          <img src="assets/drinks/can-standing-fizz.png" width="250px">
+          <div id="article-text">
+            <h2>Can with fizz - 330ml - sugared and zero</h2> 
+            <div class="example-buttons">
+              <a class="button">View in store</a>
+              <a class="button-next" onclick="run();">></a>
+            </div>
+          </div>  
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer id="footer">
+    <img src="../assets/icons/icon.png">
+    <p>Company by Hazeer and <a href="https://drooler.tk/">Drooler</a>.<br>© Copyright Hazeer and <a href="https://drooler.tk/" target="_blank">Drooler</a> 2022. All rights reserved.<br>Not affiliated with <a href="https://www.coca-cola.com/">Coca Cola</a>.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://zoetecola.tk/assets/scripts/js/danger.js"></script>
+  <script src="https://zoetecola.tk/assets/scripts/js/menu.js"></script>
+  <script src="https://zoetecola.tk/assets/scripts/js/images.js"></script>
+  <script src="https://zoetecola.tk/assets/scripts/js/links.js"></script>
+</body>
+
+</html>

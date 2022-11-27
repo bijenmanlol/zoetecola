@@ -1,0 +1,1 @@
+let img=document.getElementsByTagName("img");setTimeout(function(){for(let i=0;i<img.length;i++){img[i].style.transition=".20s";img[i].style.webkitTransition=".20s";}},200);
