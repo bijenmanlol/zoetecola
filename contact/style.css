@@ -13,13 +13,13 @@
   nav{
     display: none!important;
   }
-  #menu-img-o{
+  #menu{
     display: block;
   }
 }
 
 @media (min-width: 800px) {
-  #menu-img-o{
+  #menu{
     display: none;
   }
 }
