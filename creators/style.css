@@ -212,7 +212,14 @@ img:hover{
   text-decoration: underline;
 }
 
-#ext-web img{
+#ext-web-img{
+  width: 25px!important;
+  border-radius: 0!important;
+  display: block;
+}
+
+#ext-web-img-hover{
+  display: none;
   width: 25px!important;
   border-radius: 0!important;
 }
