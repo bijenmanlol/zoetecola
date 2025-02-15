@@ -1,5 +1,7 @@
 # Zoete Cola - https://drooler.tk/
 
+## ABANDONED PROJECT
+
 ### Your beloved cola, now sweet
 
 What is Zoete Cola? Zoete Cola is a company that brews one of the most famous drinks but sweet.<br>
