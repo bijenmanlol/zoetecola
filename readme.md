@@ -1,6 +1,6 @@
-# Zoete Cola - https://drooler.tk/
+# Zoete Cola
 
-## ABANDONED PROJECT
+## DISCONTINUED PROJECT
 
 ### Your beloved cola, now sweet
 
